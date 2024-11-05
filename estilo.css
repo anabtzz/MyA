@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;   
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: white;
+}    
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    color: #202020;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a {
+    padding-left: 40px;
+    color: #202020;
+    text-decoration:none;
+}
+
+.nav-itens>li>a:hover {
+    color: #5d0c83;
+    font-weight: bolder;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #5d0c83;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+
+}
+
+.cadastro:hover {
+    background-color: #5d0c83;
+    color: white;
+    transition: 1s background;
+}
+.gradient {
+    margin: 30px 0;
+    margin-bottom: -10px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #5d0c83,transparent);
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+.container {
+    
+    padding: 30px 30px;
+    border-radius: 30px;
+    margin: 0 50px;
+    border: #5d0c83 solid 3px;
+    
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    font-weight: normal ;
+    color: #5d0c83;
+    
+}
+span {
+    color: #5d0c83;
+    font-weight: bold;
+    text-shadow: #5d0c8383 0px 0px 10px;
+}
+.habilidades{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 3%;
+}
+.habilidades h2{
+
+    color: white;
+    font-size: 20px;
+}
+
+.habilidades img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -9px;
+    gap: 20px;
+}
+.quebra{
+    margin: 0px 80px;
+    margin-bottom: 10px;
+}
+.front {    
+    margin: 0 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #5d0c83;
+    
+}
+
+.front h3{    
+    color: white;
+}
+.design {    
+    margin: 0 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #5d0c83;
+    
+}
+
+.design h3{    
+    color: white;
+}
+.video {    
+    margin: 0 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #5d0c83;
+    color: white;
+    
+}
+
+.video h3{    
+    color: white;
+}
+.container2 {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abordagem {
+    padding: 30px 30px;
+    border-radius: 30px;
+    margin: 0 50px;
+    border: #5d0c83 solid 3px;
+}
+.abordagem h2 {
+    text-align: left;
+}
+.abordagem h3 {
+    text-align: left;
+}
+.software {
+    padding: 30px 30px;
+    border-radius: 30px;
+    margin: 0 50px;
+    border: #5d0c83 solid 3px;
+}
+.software h2 {
+    text-align: right;
+}
+.software h3 {
+    text-align: right;
+}
+.quebra2{
+   background-color: #5d0c83;
+    padding: 4px;
+    margin-top: -20px;
+    border: none;
+}
+
+@media (max-width: 1400px) {
+    .habilidades {
+        flex-direction: column;
+    }
+    .front, .design, .video {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
