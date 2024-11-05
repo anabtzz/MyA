@@ -65,11 +65,24 @@ nav {
     background: linear-gradient(to right, transparent, #5d0c83,transparent);
 }
 
+img{
+    width: 400px;
+    height: 490px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    clip-path: circle(40%);
+    margin: 0 auto;
+    display: block ;   
+    margin-bottom: -10px ;
+    margin-top: -60px ;
+    
+}
 h2 {
-    padding: 30px;
+    padding: 30px 20px;
     text-align: center;
     font-size: 28px;
     color: white;
+    
 }
 .container {
     
@@ -79,7 +92,12 @@ h2 {
     border: #814CE0 solid 3px;
     
 }
-
+.topo{
+    visibility: hidden;
+}
+.titulo{
+    visibility: hidden;
+}
 h3 {
     padding: 10px;
     text-align: center;
