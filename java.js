@@ -1,4 +1,4 @@
-window.revelar = ScrollReveal({reset: true});
+window.revelar = ScrollReveal({reset: false});
 
 revelar.reveal('.topo', 
     {
@@ -11,3 +11,21 @@ revelar.reveal('.topo',
             duration: 2000,
             distance: '80px'
         });
+        revelar.reveal('.f', 
+            {
+                duration: 1800,
+                distance: '80px',
+                delay: 600
+            });
+            revelar.reveal('.d', 
+                {
+                    duration: 1000,
+                    distance: '80px'
+                });
+                revelar.reveal('.v', 
+                    {
+                        duration: 1800,
+                        distance: '80px',
+                        delay: 600
+                    });
+

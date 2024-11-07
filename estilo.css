@@ -5,6 +5,9 @@
     max-width: 100%;   
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth
+}
 body {
     background-color: #1E1E1E;
 }    
@@ -40,7 +43,7 @@ nav {
     font-weight: bolder;
 }
 
-.cadastro {
+.contato {
     padding: 10px 40px;
     font-size: 15px;
     border: none;
@@ -53,7 +56,7 @@ nav {
 
 }
 
-.cadastro:hover {
+.contato:hover {
     background-color: #5d0c83;
     color: white;
     transition: 1s background;
@@ -97,6 +100,15 @@ h2 {
     visibility: hidden;
 }
 .titulo{
+    visibility: hidden;
+}
+.f{
+    visibility: hidden;
+}
+.d{
+    visibility: hidden;
+}
+.v{
     visibility: hidden;
 }
 h3 {
