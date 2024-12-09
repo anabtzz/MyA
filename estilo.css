@@ -84,7 +84,7 @@ img{
 h2 {
     padding: 30px 20px;
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     color: white;
     
 }
@@ -133,7 +133,7 @@ span {
 .habilidades h2{
 
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .habilidades img{
@@ -219,6 +219,14 @@ span {
     margin-top: -20px;
     border: none;
 }
+
+.projeto {
+    padding: 30px 30px;
+    border-radius: 30px;
+    margin: 0 50px;
+    background-color: #814CE0;
+}
+
 
 @media (max-width: 1400px) {
     .habilidades {
