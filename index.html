@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyA</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" type="imagex/png" href="img/Frame 1 (5).png">
+    <link rel="shortcut icon" type="imagex/png" href="img/Frame 1 (5).png">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="java.js" defer></script>
     <style>
@@ -14,6 +15,7 @@
         </style>
 </head>
 <body>
+
     <nav>
         <div class="logo">Ana</div>
         <div class="links">
@@ -67,14 +69,42 @@
         <div class="software" id="software">
             <h2>Software</h2>
             <hr class="quebra2">
-            <h3>Os software que uso na produção de video e desenvolvimento de sites e apps, sao <span>Adobe Photoshop, Illustrator, CAPCUT, Figma, After Effects, HTML, CSS e JavaScript.</span></h3>
+            <h3>Os software que uso na produção de video e desenvolvimento de sites e apps, sao <span>Adobe Photoshop, Illustrator, CAPCUT, Figma, After Effects, VS Code e Visual Studio 2022.</span></h3>
         </div>
     </div>
-    <div class="projeto">
-        <h2>Projetos</h2>
-       <hr class="quebra">
+    <h2 class="pt">Projetos:</h2>
+    <div class="projeto" id="projeto">
         <h3>Durante minha jornada como estudante de Desenvolvimento de Sistemas na ETEC, tive a oportunidade de trabalhar em diversos projetos que consolidaram meus conhecimentos e expandiram minhas habilidades em programação, design e gestão de projetos. Cada desafio foi uma chance de aplicar conceitos aprendidos em sala de aula e transformar ideias em soluções reais.</h3>
-        <h3>E os principais projetos foram</h3>
+        <h3>E os principais projetos foram:</h3>
     </div>
+    <div class="atividades">
+        <img src="img/devreads.png" class="devreads">
+        <img src="img/eventura.png" class="eventura">
+        <img src="img/dogshop.png" class="dogshop">
+        </div>
+
+    <div class="botoes">
+            <div class="btnd">
+                <a href="https://github.com/CLOUDPRGM/DevReadsASPNET.git"><button class="documentacao">Documentação</button></a>
+            </div>
+            <div class="btnd">
+                <a href="https://github.com/anabtzz/EVENTURA.git"><button class="documentacao">Documentação</button></a>
+            </div>
+            <div class="btnd">
+                <a href="google.com"><button class="documentacao">Documentação</button></a>
+            </div>
+    </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <img id="popup-img" src="" alt="Imagem do projeto">
+                <h3 id="popup-title">Título do Projeto</h3>
+                <p class="about" id="popup-about">Sobre.</p>
+                <hr>
+                <p class="description" id="popup-description">Descrição detalhada do projeto.</p>
+            </div>
+        </div>
+        
 </body>
 </html>

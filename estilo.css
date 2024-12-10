@@ -20,6 +20,7 @@ nav {
     color: #202020;
 }
 
+    
 .logo {
     font-weight: 800;
     font-size: 25px;
@@ -57,7 +58,7 @@ nav {
 }
 
 .contato:hover {
-    background-color: #5d0c83;
+    background-color: #814CE0;
     color: white;
     transition: 1s background;
 }
@@ -65,10 +66,10 @@ nav {
     margin: 30px 0;
     margin-bottom: -10px;
     height: 3px;
-    background: linear-gradient(to right, transparent, #5d0c83,transparent);
+    background: linear-gradient(to right, transparent, #814CE0,transparent);
 }
 
-img{
+.topo{
     width: 500px;
     height: 490px;
     border-top-left-radius: 0%;
@@ -228,6 +229,143 @@ span {
 }
 
 
+.atividades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza os itens no eixo horizontal */
+    align-items: center; /* Centraliza os itens no eixo vertical */
+    gap: 50px; /* Adiciona espaço entre os itens */
+    width: 20%; /* Permite que os itens ocupem o espaço completo */
+    margin: 50px auto; /* Garante centralização do container */
+    
+}
+
+.eventura{
+
+    border: #5d5ea8 solid 1px;
+    border-radius: 30px;
+}
+
+.devreads{
+    border: #3fb94f8f solid 1px;
+    border-radius: 30px;
+}
+
+.dogshop{
+
+    border: #ffde59e5 solid 1px;
+    border-radius: 30px;
+}
+
+.devreads:hover{
+    box-shadow: #3fb94f83 0px 0px 20px 3px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.dogshop:hover{
+    box-shadow: #ffde5983 0px 0px 20px 3px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.eventura:hover{
+    box-shadow: #5f6096 0px 0px 20px 3px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.documentacao{
+    background-color: transparent;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.btnd{
+    border: #814CE0 solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 280px; 
+}
+
+.btnd:hover{
+    background-color: #814CE0;
+    transition: 0.5s background;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #5d0c832a;
+    border: #5d0c83 solid 3px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.popup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #814CE0;
+    cursor: pointer;
+}
+
+.popup h3 {
+    margin: 0px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
 @media (max-width: 1400px) {
     .habilidades {
         flex-direction: column;
@@ -235,6 +373,14 @@ span {
     .front, .design, .video {
         margin: 10px 0;
         width: 100%;
+    }
+    .atividades{
+        flex-direction: column;
+        
+    }
+    .eventura, .devreads, .dogshop{
+        width: 300px;
+
     }
 }
 
