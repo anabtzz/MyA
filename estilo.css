@@ -540,3 +540,20 @@ span {
     }
     
 }
+
+@media (max-width: 400px) {
+    .container-topo{
+        margin: 5px;
+    }
+    .abordagem, .software, .projeto{
+        
+        margin: 12px;
+    }
+    .social{
+        margin: 30px;
+    }
+        .topo{
+            width: 330px;
+            height: 330px;
+        }
+}
