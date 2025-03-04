@@ -10,26 +10,37 @@ html{
 }
 body {
     background-color: #1E1E1E;
+    padding-top: 70px;
 }    
 nav {
     display: flex;
-    justify-content: space-around;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
-    align-items: center;
-    color: #202020;
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; /* Distribui o espaço */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1E1E1E;
+    z-index: 1000;
+    padding: 15px 40px; /* Ajuste de espaçamento */
 }
 
-    
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
 .logo {
     font-weight: 800;
     font-size: 25px;
     color: white;
-}
-
-.nav-itens {
-    list-style: none;
-    display: flex;
 }
 
 .nav-itens>li>a {
@@ -71,7 +82,7 @@ nav {
 
 .topo{
     width: 500px;
-    height: 490px;
+    height: 510px;
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
     border-radius: 100%;
@@ -258,17 +269,17 @@ span {
 }
 
 .devreads:hover{
-    box-shadow: #3fb94f83 0px 0px 20px 3px;
+    box-shadow: #3fb94f83 0px 0px 20px 2px;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out; 
 }
 .dogshop:hover{
-    box-shadow: #ffde5983 0px 0px 20px 3px;
+    box-shadow: #ffde5983 0px 0px 20px 2px;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out; 
 }
 .eventura:hover{
-    box-shadow: #5f6096 0px 0px 20px 3px;
+    box-shadow: #5f6096 0px 0px 20px 2px;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out; 
 }
@@ -364,8 +375,55 @@ span {
     font-size: 16px;
     margin-top: 20px;
 }
+.social {
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 150px;
+    border: #814CE0 solid 3px;
+}
+.social h2 {
+    text-align: center;
+}
+.social h3 {
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px; 
+    margin-top: 20px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.social-media a:hover {
+    color: #814CE0;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
 
 
+.copy{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.quebra3{
+    background-color: #ffff;
+     padding: 0.5px;
+     margin: 20px 40px;
+     border: none;
+ }
 @media (max-width: 1400px) {
     .habilidades {
         flex-direction: column;

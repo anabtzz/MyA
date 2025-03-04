@@ -57,6 +57,37 @@ revelar.reveal('.container-topo',
                                     delay: 600,
                                     origin: 'bottom'
                                 });
+                                revelar.reveal('.atividades', 
+                                    {
+                                        duration: 2500,
+                                        distance: '45px',
+                                        delay: 600,
+                                        origin: 'bottom'
+                                    });
+                                revelar.reveal('.btnd', 
+                                    {
+                                        duration: 2500,
+                                        distance: '45px',
+                                        delay: 600,
+                                        origin: 'bottom'
+                                    });
+
+                                    revelar.reveal('.social', 
+                                        {
+                                            duration: 2500,
+                                            distance: '40px',
+                                            delay: 1400,
+                                            
+                                        });
+
+                                        revelar.reveal('.rodape', 
+                                            {
+                                                duration: 2500,
+                                                distance: '40px',
+                                                delay: 1600,
+                                                
+                                            });
+        
     
 
 
@@ -81,7 +112,7 @@ const projects = {
     eventura: {
         title: 'EVENTURA',
         about: 'Plataforma de Eventos em comemoração ao 470 anos de São Paulo.',
-        description: 'Um projeto de aplicativo mobile finalizado em Setembro de 2022 feito em Flutter - Dart para mostrar eventos populares que acontecem em São Paulo. Este projeto foi meu segundo App Mobile que eu fiz durante o curso sendo o primeiro em Java no Android Studio que sendo sincera não foi uma expericencia muito boa.', 
+        description: 'Um projeto de aplicativo mobile finalizado em Setembro de 2024 feito em Flutter - Dart para mostrar eventos populares que acontecem em São Paulo. Este projeto foi meu segundo App Mobile que eu fiz durante o curso sendo o primeiro em Java no Android Studio que sendo sincera não foi uma expericencia muito boa.', 
         img: 'img/eventura.png'
     },
     dogshop: {
