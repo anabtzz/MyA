@@ -120,6 +120,12 @@ const projects = {
         about: 'Uma identidade visual sobre um PetShop.',
         description: 'Meu primeiro projeto criado no final do meu primeiro ano em 2022, simples sobre um PetShop sendo somente uma indentidade visual e defesa.',
         img: 'img/dogshop.png'
+    },
+    patitas: {
+        title: 'Patitas',
+        about: 'Projeto Front-End de um PetShop.',
+        description: 'Juntamente com minha amiga nos criamos o Patitas, um e-commerce de petshop feito para os donos de gatinhos e cachorrinhos que querem compra mimos sem sair de casa. Projeto ainda esta em andamento porém os prototipos estao prontosja foram feitos. Este projeto será feito somente em HTML, Css e Java Script sem a intenção de ser um site real com o uso de C#.',
+        img: 'img/patitas_logo.png'
     }
 };
 
